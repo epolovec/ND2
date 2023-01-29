@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: none;
+}
+
+.numbers {
+    display: flex;
+    border-color: black;
+    border:1px;
+    border-style: solid;
+    width: fit-content;
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 62px;
+    height: 32px;
+    margin: 4px 2px;
+}
+
+
+input {
+    position: relative;
+    height: 30px;
+    width: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-color: black;
+    border:1px;
+    border-style: solid;
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+
+input:checked {
+    background-color: rgb(180, 180, 180);
+}
+
+label {
+    position: relative;
+    left: 26px;
+    top: -32px;
+    z-index: 1;
+    font-size: 14px;
+}
