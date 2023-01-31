@@ -26,7 +26,7 @@ li {
 }
 
 
-input {
+li input {
     position: relative;
     height: 30px;
     width: 60px;
@@ -40,14 +40,42 @@ input {
     margin: 0;
 }
 
-input:checked {
+li input:checked {
     background-color: rgb(180, 180, 180);
 }
 
-label {
+li label {
     position: relative;
     left: 26px;
     top: -32px;
     z-index: 1;
     font-size: 14px;
+}
+
+.answer {
+    width: 216px;
+    border-color: black;
+    border:1px;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.answer p {
+    margin: 5px;
+}
+
+#EIA {
+    display:none;
+}
+
+#EIA96 {
+    display:none;
+}
+
+#digit:checked ~ #EIA {
+    display: block;
+}
+
+#new:checked ~ #EIA96 {
+    display: block;
 }
